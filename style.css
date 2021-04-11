@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body {
+    background: #0a0066;
+    margin: 0px;
+    font: normal 15px Montserrat;
+}
+
+header {
+    background:rgb(0, 0, 0);
+    margin: 0px;
+    padding: 15px;
+}
+
+#logo {
+    position: relative;
+}
+
+.menu-nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu-lista{
+    display: flex;
+}
+.menu-lista li{
+    padding: 10px;
+    font-size:20px;
+    
+    
+}
+.menu-lista li::after{
+    /*content: "|";*/
+    margin-left: 10px
+}
+.menu-lista li:hover{
+    font-size: 2rem;
+    color: #384cc0;
+
+}
+/*.menu-lista li:nth-child(1):before{
+    content: "|";
+    margin-right: 10px;
+}*/
+.menu-lista li:nth-child(4)::after{
+    content: "";
+    
+}
+a,ul,li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+a#link:hover {
+    color: #384cc0;
+    
+}
+
+.corpo {
+    text-align: center;
+    color: white;
+    background-color: black;
+    background-attachment: fixed;
+    /*background: rgb(255, 255, 255);*/
+    background-image: url("imagensparge/teste.png") ;
+    background-size: 1400px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    padding: 100px;
+    padding-left: 30px;
+    /*box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.582);*/
+}
+
+#empresas {
+    position: relative;
+    
+}
+
+.corpo2 {
+    text-align: center;
+    background: rgb(255, 255, 255);
+    margin-left: 500px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.582);
+}
+
+.corpojs {
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.582);
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    background:rgb(0, 0, 0);
+    margin: 0px;
+    margin-top: 20px;
+    padding: 15px;
+    color: white;
+}
+
+#copy {
+    color: rgb(112, 112, 112);
+}
+
+.imagensfooter {
+    padding-right: 10px;
+    padding-left: 10px;
+}
