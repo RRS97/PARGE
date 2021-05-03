@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+body {
+    background: #faf6ed;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+header {
+    background:rgb(0, 0, 0);
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.logo {
+    position: relative;
+    width: 20%;
+}
+
+
+.menu-nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-lista{
+    display: flex;
+}
+.menu-lista li{
+    padding: 10px;
+    font-size:20px;
+    
+    
+}
+.menu-lista li::after{
+    /*content: "|";*/
+    margin-left: 10px
+}
+.menu-lista li:hover{
+    font-size: 2rem;
+    color: #384cc0;
+
+}
+/*.menu-lista li:nth-child(1):before{
+    content: "|";
+    margin-right: 10px;
+}*/
+.menu-lista li:nth-child(4)::after{
+    content: "";
+    
+}
+a,ul,li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+a.link:hover {
+    color: #384cc0;
+    
+}
+
+
+/*Banner Título */
+
+div.foto-legenda {
+    position: relative;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    line-height: 1.3;
+}
+
+div.foto-legenda img{
+    background-attachment: fixed;
+    width: 100%;
+}
+
+div.foto-legenda div {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 30%;
+    box-sizing: border-box;
+    transition: 1s;
+    padding: 2em;
+    padding-top: 4em;
+}
+
+div.foto-legenda div p {
+    box-sizing: content-box;
+    font-size: 100%;
+}
+
+div.foto-legenda div h1 {
+    font-size: 54px;
+}
+#titulo-principal{
+    font-size: 3em;
+}
+@media(max-width: 720px){
+    #titulo-principal{
+        margin-top: 50px;
+    }
+}
+
+
+/*Fim do Banner*/
+
+.corpo {
+    text-align: center;
+    color: white;
+    background-color: black;
+    background-attachment: fixed;
+    /*background: rgb(255, 255, 255);*/
+    background-image: url("imagensparge/teste.png") ;
+    background-size: 100%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    padding: 7%;
+    /*box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.582);*/
+}
+
+.corpo-empresa{
+    text-align: center;
+    color: white;
+    background-color: black;
+    background-attachment: fixed;
+    /*background: rgb(255, 255, 255);*/
+    background-image: url("imagensparge/teste.png") ;
+    background-size: 100%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    padding: 7%;
+    /*box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.582);*/
+}
+
+.corpo2 {
+    text-align: center;
+    background: rgb(255, 255, 255);
+    margin-left: 500px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.582);
+}
+
+.texto1 {
+    color: white;
+    text-align: center;
+    background-image: url("imagensparge/foto.png")/* #0d24ff*/;
+    background-size: 100%;
+    padding: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    border-radius: 20px;
+    /*box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.582);*/
+    align-items: center;
+}
+
+.texto1 img {
+    width: 50%;
+}
+
+#bases-texto1 {
+    padding: 15px;
+    width: 90%;
+    margin: 0 auto;
+
+
+    
+    /*box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.582);*/
+    align-items: center;
+}
+
+#bases-texto1 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.container-duvida {
+    width: 100%;
+    margin: 5%;
+    margin-left: 10%;
+
+    column-count: 2;
+    column-gap: 30px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 30px;
+    -moz-column-count: 2;
+    -moz-column-gap: 30px;
+    min-width: 50%;
+    max-width: 80%;
+}
+
+.container-duvida p{
+    color: black;
+}
+
+.img-duvida img {
+    max-width: 50%;
+    min-width: 30%;
+    padding-left: 30%;
+}
+
+.img-duvida img#bases-img {
+    max-width: 60%;
+    min-width: 30%;
+    padding-left: 10%;
+}
+
+strong#bases {
+    color: rgb(38, 38, 218);
+}
+
+footer{
+    text-align: center;
+    background:rgb(0, 0, 0);
+    margin: 0px;
+    margin-top: 20px;
+    padding: 15px;
+    color: white;
+}
+
+footer address#direitos img.imagensfooter {
+    width: 3%;
+} 
+
+#copy {
+    color: rgb(112, 112, 112);
+}
+
+.imagensfooter {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.machine {
+    margin-top: 10px;
+    border-radius: 20px;
+    border-style: double;
+
+}
