@@ -1,0 +1,13 @@
+@media (max-width: 720px) {
+  div.foto-legenda div p {
+    box-sizing: content-box;
+    font-size: 100%;
+  }
+
+  div.foto-legenda div h1 {
+    font-size: 25px;
+  }
+  #titulo-principal {
+    font-size: 2em;
+  }
+}

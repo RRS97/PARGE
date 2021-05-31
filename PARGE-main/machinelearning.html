@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+		<title>PARGE | Machine Learning</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style3.css">
+	</head>
+
+	<body>
+		<header>
+			<nav class="menu-nav scroll">
+				<a href="index.html"><img src="./imagensparge/LOGO2.PNG" width="300px" height="110px" id="logo"></a>
+				<ul class="menu-lista scroll">
+					<li><a href="index.html" >Home</a></li>
+					<li><a href="fundamentos.html" >Fundamentos</a> </li>
+					<li><a href="machinelearning.html" class="menu-ativo">Machine Learning</a> </li>
+					<li><a href="bigdata.html">Big Data</a></li> 
+					<li><a href="#">Estatística</a></li>
+				</ul>
+			</nav>
+	
+	
+		</header>
+	
+		<section class="scroll">
+
+			<div class="foto-legenda">
+                <img src="imagensparge/basemachine.png" alt="Banner" id="banner" onmouseover="document.getElementById('banner').src='imagensparge/basemachine2.png';" onmouseout="document.getElementById('banner').src='imagensparge/basemachine.png';">
+            </div>
+
+			<div class="texto1">
+				<hr>
+				<strong><p>Machine Learning analisa dados para reconhecer padrões nas empresas e clientes</p>
+
+				<p>Atualmente, o aprendizado de máquina tem sido usado em diferentes campos. Por exemplo, no setor financeiro, o uso de Machine Learning pode ajudar a detectar um cliente que pensa fechar sua conta antes mesmo que isso ocorra, a rastrear padrões de gastos desse cliente e até mesmo fazer uma análise de mercado.</p>
+
+				<p>Com potencial de impactar o consumidor e a cultura de uma empresa, o Machine Learning é uma estratégia que trará ainda mais vantagem competitiva. Por isso, o Mundo + Tech reuniu (a partir desta lista feita pela Forbes) exemplos reais de companhias que viram nessa inovação uma oportunidade de inovar seus negócios.</p>
+				</strong>
+			<hr>
+
+			</div>
+
+			<div class="corpo-empresa">
+				<h2>Aqui temos algumas empresas que estão trabalhando com Machine Learning:</h2>
+				<hr>
+				<img src="imagensparge/empresas-machine/AUQUAN.jpg" height="100" title="AUQUAN" class="machine">
+				<img src="imagensparge/empresas-machine/AIDEN MARKETING.jpeg" height="100" title="AIDEN MARKETING" class="machine">
+				<img src="imagensparge/empresas-machine/HAZY.jpg" height="100" title="HAZY" class="machine">
+				<img src="imagensparge/empresas-machine/KHEIRON.jpg" height="100" title="KHEIRON" class="machine">
+				<img src="imagensparge/empresas-machine/KORTICAL.jpg" height="100" title="KORTICAL" class="machine">
+				<img src="imagensparge/empresas-machine/LIFEBIT.jpeg" height="100" title="LIFEBIT" class="machine">
+			</div>
+
+
+			<!--<div class="texto1">
+				<h1> Cadastro de Usuários</h1>
+				<form method="post" action="mailto:jpvoig@gmail.com">
+				<fieldset>
+				<legend>Dados do Novo Usuário</legend>
+				<p><label for="nome">Nome:</label>
+				<input type="text" id="nome" size="40" maxlength="80"
+				placeholder="Nome completo"></p>
+				<p><label for="idade">Idade atual:</label>
+				<input type="number" id="idade" min="18" max="120"
+				step="1"></p>
+				<p><label for="email">E-mail:</label>
+					<input type="email" id="email" size="30"
+					maxlength="40"></p>
+				<p><label for="senha">Senha:</label>
+				<input type="password" id="senha" size="8"
+				maxlength="8" placeholder="8 dígitos"></p>
+				<fieldset id="sexo">
+				<legend>Sexo:</legend>
+				<input type="radio" id="sexom" name="sexo"
+				value="M"><label for="sexom">Masculino</label>
+				<input type="radio" id="sexof" name="sexo"
+				value="F"><label for="sexof">Feminino</label>
+				</fieldset>
+				<p><label for="data">Data de nascimento:</label>
+				<input type="date" id="data"></p>
+				<fieldset id="acesso">
+				<legend>Formas de acesso:</legend>
+				<input type="checkbox" id="computador"
+				name="acesso" value="Computador"><label
+				for="computador">Computador</label>
+				<input type="checkbox" id="smartphone"
+				name="acesso" value="Smartphone"><label
+				for="smartphone">Smartphone</label>
+				<input type="checkbox" id="tablet" name="acesso"
+				value="Tablet"><label for="tablet">Tablet</label>
+				<fieldset>
+				<legend>Região do Usuário</legend>
+				<p><label for="estado">Estado:</label>
+				<select id="estado">
+					<optgroup label="Região Sudeste">
+				<option value="ES">Espírito Santo</option>
+				<option value="MG">Minas Gerais</option>
+				<option value="RJ">Rio de Janeiro</option>
+				<option value="SP">São Paulo</option>
+				</optgroup>
+				<optgroup label="Região Sul">
+				<option value="PR">Paraná</option>
+				<option value="RS">Rio Grande do Sul</option>
+				<option value="SC">Santa Catarina</option>
+				</optgroup>
+				</select></p>
+				<p><label for="cidade">Cidade:</label>
+				<input type="text" id="cidade" size="20"
+				maxlength="40" placeholder="Sua cidade" list="cidades"></p>
+				<datalist id="cidades">
+				<option value="Duque de Caxias"></option>
+				<option value="Nova Iguaçu"></option>
+				<option value="Nilópolis"></option>
+				<option value="Rio de Janeiro"></option>
+				<option value="Niterói"></option>
+				<option value="São Gonçalo"></option>
+				<option value="Rio Bonito"></option>
+				<option value="São João de Meriti"></option>
+				<option value="Rio Claro"></option>
+				</datalist>
+				</fieldset>
+				<fieldset>
+				<legend>Mensagem do Usuário</legend>
+				
+				<textarea id="mensagem" cols="60" rows="10"
+				placeholder="Digite a sua mensagem aqui"></textarea></p>
+				</fieldset>
+				<input type="hidden" id="dataCadastro" value="10/02/2020
+				- 19:00">
+				<input type="submit" value="Cadastrar">
+				<input type="reset" value="Limpar Campos">
+				<input type="button" value="Fechar"
+				onclick="window.close();">
+				</form>
+			</div>-->	
+		</section>
+
+
+		<div class="container-duvida scroll">
+			<div class="txt-duvida">
+				<h2>Qual a importância do machine learning?</h2>
+				<p>O interesse renovado no aprendizado de máquina se deve aos mesmos fatores que tornaram a mineração de dados e a análise Bayesiana mais populares do que nunca: coisas como os crescentes volume e variedade de dados disponíveis, o processamento computacional mais barato e poderoso, o armazenamento de dados acessível etc.</p>
+				
+				<p>Tudo isso significa que é possível produzir, rápida e automaticamente, modelos capazes de analisar dados maiores e mais complexos, e entregar resultados mais rápidos e precisos – mesmo em grande escala. E ao construir modelos precisos, uma organização tem mais chances de identificar oportunidades lucrativas – ou de evitar riscos desconhecidos.
+</p>
+			</div>
+
+			<div class="img-duvida">
+				<img src="imagensparge/pergunta.png" alt="Pessoa em Dúvida">
+			</div>
+		</div>
+
+		<br>
+
+		<div class="container-duvida scroll">
+			<div class="img-duvida">
+				<img src="imagensparge/Analystic.png" alt="Bases do Data Science" id="bases-img">
+			</div>
+
+			<div class="txt-duvida">
+				<h2><strong id="bases">Machine learning</strong> no mundo de hoje</h2>
+				
+				<p>Ao usar algoritmos para construir modelos que revelam conexões, as organizações podem tomar decisões melhores sem intervenção humana. Leia mais sobre essa tecnologia que está transformando o mundo em que vivemos.</p>
+
+				<h2>Por que se fala tanto em machine learning?</h2>
+
+				<p>Como implementar machine learning na sua empresa? Para quem é essa tecnologia? Como ela funciona? Como ela pode atingir resultados?</p>
+
+				<h2>A evolução da inteligência analítica</h2>
+
+				<p>Avanços recentes têm aumentado o interesse na adoção do machine learning como parte de uma estratégia analítica maior, mas incorporá-lo na infraestrutura de dados de produção não é fácil. Aprenda a superar os obstáculos.</p>
+
+				<h2>Advanced analytics do SAS</h2>
+
+				<p>Machine learning não é uma tecnologia específica em si; ele envolve softwares como de mineração de dados e advanced analytics para processar grandes volumes de dados e descobrir insights. As soluções do SAS® são criadas com algoritmos inovadores que tornam isso possível.</p>
+			</div>
+
+			
+		</div>
+
+
+		<footer class="scroll">
+            <address id="direitos">
+                <img src="./imagensparge/LOGO2.PNG" alt="Logo PARGE" class="logo"><br>
+                <p>
+                    <a href="#" onmouseover="document.getElementById('emailid').src='imagensparge/gmail2.png';" onmouseout="document.getElementById('emailid').src='imagensparge/gmail.png';">
+                        <img src="imagensparge/gmail.png" class="imagensfooter" alt="Email de Contato" id="emailid">
+                    </a>
+                    
+                    <a href="#" onmouseover="document.getElementById('faceid').src='imagensparge/face2.png';" onmouseout="document.getElementById('faceid').src='imagensparge/face1.png';">
+                        <img src="imagensparge/face1.png" class="imagensfooter" alt="Facebook" id="faceid">
+                    </a>
+                    
+                    <a href="#" onmouseover="document.getElementById('instaid').src='imagensparge/insta2.png';" onmouseout="document.getElementById('instaid').src='imagensparge/insta1.png';">
+                        <img src="imagensparge/insta1.png" class="imagensfooter" alt="Instagram" id="instaid">
+                    </a>
+
+                    <a href="#" onmouseover="document.getElementById('telid').src='imagensparge/tel2.png';" onmouseout="document.getElementById('telid').src='imagensparge/tel1.png';">
+                        <img src="imagensparge/tel1.png" class="imagensfooter" alt="Telefone de Contato" id="telid">
+                    </a>  
+                </p>
+                <p id="copy">
+                    PARGE - Data Science Agency &copy; 2021</p>
+            </address>
+        </footer>
+		<script src="script.js"></script>
+	</body>
+</html>

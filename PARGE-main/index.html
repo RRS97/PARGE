@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PARGE | Data Science Agency</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header class="scroll">
+		<nav class="menu-nav scroll">
+			<a href="index.html"><img src="./imagensparge/LOGO2.PNG" id="logo"></a>
+			<ul class="menu-lista scroll">
+				<li><a href="index.html" class="menu-ativo">Home</a></li>
+				<li><a href="fundamentos.html" >Fundamentos</a> </li>
+				<li><a href="machinelearning.html">Machine Learning</a> </li>
+				<li><a href="bigdata.html">Big Data</a></li> 
+				<li><a href="#">Estatística</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="scroll">
+		<div class="foto-legenda">
+			<img src="imagensparge/basedatascience.png" alt="Banner" id="banner" onmouseover="document.getElementById('banner').src='imagensparge/basedatascience2.png';" onmouseout="document.getElementById('banner').src='imagensparge/basedatascience.png';">
+			<div>
+				<!--<h1 id="titulo-principal">Data Science</h1>
+				<hr>
+				<p>Data Science ou Ciência de Dados é a das áreas mais procuradas e importantes para as empresas!</p>-->
+			</div>
+		</div>
+	</section>
+	<div class="texto1 scroll">
+		<p><strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. .</strong></p>
+			
+		<p>Aqui não será falada de todas, e sim das principais: </p>
+	</div>
+	<section id="dados" class="scroll">
+		<div class="scroll">
+			<img src="./imagensparge/dados.png" alt="Dados">
+			<h2>Dados</h2>
+		</div>
+		<div class="scroll ">
+			<img src="./imagensparge/info.png" alt="Informação">
+			<h2 class="segundo">Informação</h2>
+		</div>
+	</section>
+	<section id="dados-text" class="scroll">
+			<p>Os dados são elementos que constituem a matéria-prima da informação. 
+				 Podemos defini-los, também, como conhecimento bruto, ainda
+				não devidamente tratado para prover insights para uma organização.
+			</p>
+			<p>As informações são os dados devidamente tratados e analisados,
+				 produzindo conhecimento relevante. Ao contrário dos elementos 
+				 brutos do tópico anterior, elas têm significados práticos e podem
+				  ser utilizadas para reforçar o processo de tomada de decisão.</p>
+	</section>
+
+
+	<section  id="intro" class="scroll">
+		<div class="intro-back">
+			<div class="intro-text">
+				<p>
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. .	
+				</p>
+			</div>
+			<div class="intro-img">
+				<img src="./imagensparge/Mask Group 2.svg" alt="Homem programando" title="programador">
+			</div>
+		</div>
+	</section>
+
+
+
+	<div id="bases-texto1" class="scroll">
+		<img src="imagensparge/indextexto.png" alt="Principais Ferramentas do Data Science">
+	</div>
+
+	<section id="formulario" class="scroll">
+		<div class="texto1">
+			<h1 id="titulo-form">Cadastro de Usuários</h1>
+			<form action="">
+				<fieldset class="grupo campo">
+					<div>
+						<label for="nome">Nome:  </label>
+						<input type="text" name="nome" id="nome" placeholder="Nome" required>
+					</div>
+					<div>
+						<label for="sobrenome">Sobrenome: </label>
+						<input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+					</div>
+					<div>
+						<label for="idade">Idade: </label>
+						<input type="number" name="idade" id="idade" placeholder="Idade">
+					</div>
+					<div>
+						<label for="estado">Estado: </label>
+						<input type="text" name="estado" id="estado" placeholder="Estado" required>
+					</div>
+				</fieldset>
+
+				<div class="campo">
+					<label for="email">E-mail</label>
+					<input type="email" name="email" id="email" placeholder="Email" required>
+				</div>
+				<div class="campo">
+					<label for="">De qual lado da aplicação você desenvolve? </label>
+					<label for="">
+						<input type="radio" name="devweb" value="frontend" checked>Front end
+					</label>
+					<label for="">
+						<input type="radio" name="devweb" value="backend">Back end
+					</label>
+					<label for="">
+						<input type="radio" name="devweb" value="fullstack"> Full Stack
+					</label>
+				</div>
+				<div class="campo">
+					<label>Você está trabalhando ou estudando atualmente?</label>
+					<select id="Funcao">
+						<option selected disabled  value="">Selecione</option>
+						<option value="Sim">Sim</option>
+						<option value="Não">Não</option>
+						<option value="Talvez">Prefiro não informar</option>
+					</select>
+				</div>
+				<fieldset class="grupo">
+					<div>
+						<label for="">Qual Área da Ciência de dados mais te interessa?</label>
+						<input type="checkbox" id="machine" name="machine" value="Machine Learning">
+						<label for="machine">Machine Learning</label>
+
+						<input type="checkbox" id="big" name="big" value="Big Data">
+						<label for="big">Big Data</label>
+
+						<input type="checkbox" id="estatistica" name="estatistica">
+						<label for="estatisca">Estatística</label>
+
+						<input type="checkbox" id="outra" name="outra">
+						<label for="outra">Outras</label>
+						
+					</div>
+				</fieldset>
+				<div class="grupo">
+					<label>Conte um pouco de sua experiência:</label>
+					<textarea name="experiencia" id="experiencia" rows="6" style="width: 26em"></textarea>
+				</div>
+				<button class="botao" type="submit">Enviar</button>
+				
+			</form>
+		</div>
+	</section>
+		
+	
+	
+
+
+	<footer class="scroll">
+		<address id="direitos">
+			<img src="./imagensparge/LOGO2.PNG" alt="Logo PARGE" class="logo"><br>
+			<p>
+				<a href="#" onmouseover="document.getElementById('emailid').src='imagensparge/gmail2.png';" onmouseout="document.getElementById('emailid').src='imagensparge/gmail.png';">
+					<img src="imagensparge/gmail.png" class="imagensfooter" alt="Email de Contato" id="emailid">
+				</a>
+				
+				<a href="#" onmouseover="document.getElementById('faceid').src='imagensparge/face2.png';" onmouseout="document.getElementById('faceid').src='imagensparge/face1.png';">
+					<img src="imagensparge/face1.png" class="imagensfooter" alt="Facebook" id="faceid">
+				</a>
+				
+				<a href="#" onmouseover="document.getElementById('instaid').src='imagensparge/insta2.png';" onmouseout="document.getElementById('instaid').src='imagensparge/insta1.png';">
+					<img src="imagensparge/insta1.png" class="imagensfooter" alt="Instagram" id="instaid">
+				</a>
+
+				<a href="#" onmouseover="document.getElementById('telid').src='imagensparge/tel2.png';" onmouseout="document.getElementById('telid').src='imagensparge/tel1.png';">
+					<img src="imagensparge/tel1.png" class="imagensfooter" alt="Telefone de Contato" id="telid">
+				</a>  
+			</p>
+			<p id="copy">
+				PARGE - Data Science Agency &copy; 2021</p>
+		</address>
+	</footer>
+	<script src="./script.js"></script>
+</body>
+</html>
