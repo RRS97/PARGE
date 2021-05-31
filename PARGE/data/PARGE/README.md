@@ -1,2 +1,0 @@
-# PARGE
-Projeto PARGE
